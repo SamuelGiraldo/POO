@@ -10,6 +10,5 @@ public class Expresiones {
     c = a + b + x;
 
     System.out.println("El resultado de la suma es: " + c);
-
     }
 }
