@@ -1,14 +1,9 @@
 public class Expresiones {
 
     public static void main(String[] args){
-
-    int a = 5;
-    int b = 6;
-    int x = 4;
-    int c = 0;
-
-    c = a + b + x;
-
-    System.out.println("El resultado de la suma es: " + c);
+   int A = 4;
+   int B = 5;
+   int C = 1;
+    System.out.println( B * A - Math.pow (B,2) / 4 * C );
     }
 }
