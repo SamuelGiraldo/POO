@@ -6,5 +6,5 @@ public class HolaMundo {
    
     //Creacion de la variable x de tipo entero
     int x= 2;
-
-}
+    }
+    }
