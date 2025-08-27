@@ -47,6 +47,8 @@ double v3=46.50;
 
 System.out.println((d1*v1+d2*v2+d3*v3)/(d1+d2+d3));
 
+double vprom=44.55;
+
 System.out.println(d1/l1);
 
 System.out.println(d2/l2);
@@ -103,7 +105,34 @@ System.out.println(CO2total/(d1+d2+d3));
 
 double CO2porkm=0.317;
 
-System.out.println();
+System.out.println((l1+l2+l3)*galPorLitro);
 
+double galTot=4.3032;
+
+System.out.println((vprom-vmin)/(vmax-vmin));
+
+double vnorm=0.242;   
+
+System.out.println((v1+v2+v3)/3);
+
+double vmedia=44.986;
+
+System.out.println(Math.sqrt(((Math.pow(v1-vmedia,2))+(Math.pow(v2-vmedia,2))+(Math.pow(v3-vmedia,2)))/3));
+
+double sigma=2.26;
+
+System.out.println((t1*v1+t2*v2+t3*v3)/(t1+t2+t3));
+
+double vpond_t=44.42;
+
+System.out.println(ca+(cb-ca)*(vprom-va)/(vb-va));
+
+double c_vprom=0.054;
+
+System.out.println((c_vprom)*(d1+d2+d3));
+
+double costoMant=7.43
+
+System.out.println(va,2+bv+c);
 }
-}
+}       
