@@ -1,4 +1,4 @@
-public class tallervariable {
+public class tallervariableCasoA {
      
 public static void main (String[]args){
 
@@ -55,7 +55,7 @@ System.out.println(d2/l2);
 
 System.out.println(d3/l3);
 
-double vkml1=8.23;
+double kml1=8.23;
 
 double kml2=8.47;
 
@@ -127,12 +127,22 @@ double vpond_t=44.42;
 
 System.out.println(ca+(cb-ca)*(vprom-va)/(vb-va));
 
-double c_vprom=0.054;
+double cvprom=0.05455;
 
-System.out.println((c_vprom)*(d1+d2+d3));
+System.out.println((cvprom)*(d1+d2+d3));
 
-double costoMant=7.43
+double costoMant=7.511;
 
-System.out.println(va,2+bv+c);
+double w1=0.25;
+
+double w2=0.25;
+
+double w3=0.25;
+
+double w4=0.25;
+
+System.out.println(w1*(1/costoKm)+(w2*kmltotal)+w3*(1/CO2porkm)+w4*(1/(1+sigma)));
+
+double Score=3.837;
 }
-}       
+}
