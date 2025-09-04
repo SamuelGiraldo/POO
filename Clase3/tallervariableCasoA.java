@@ -134,7 +134,7 @@ System.out.println((cvprom)*(d1+d2+d3));
 double costoMant=7.511;
 
 double w1=0.25;
-
+  
 double w2=0.25;
 
 double w3=0.25;

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class PracticaCondicionales {
 
 public static void main(String[] args) {
@@ -5,8 +6,8 @@ public static void main(String[] args) {
 * Ejercicio 4.1.A)
 *Requerimiento:Si un ángulo es igual a 90 grados, imprimir el
 *mensaje "El ángulo es un ángulo recto"
-*sino imprimir el mensaje "El ángulo no es
-*un ángulo recto".
+*sino imprimir el mensaje "El ángulo no es un ángulo recto"
+*
 *Entrada: ángulo
 *Proceso: Validar si el angulo es igual a 90 grados
 *Salida: Obtener el mensaje si es o no es angulo recto
@@ -60,8 +61,41 @@ else{
 
   totalNegativos = totalNegativos += numero;
   System.out.println("El total de negativos es :" + totalNegativos);
-
-
 }
+//-----------------------------------------------------------//
+/*D)
+ * Si x es mayor que Y y Z es menor que 20, leer un valor para P
+ * 
+ * Entrada: X,Y,Z
+ * Proceso: Validar que x sea mayor que Y y Z menor que 20
+ * Salida: Leer un valor para P si se cumple la condición
+ */
+
+ double X=30;
+ double Y=20;
+ double Z=10;
+ double P=0;
+ if (X > Y && Z < 20) {
+   System.out.println("Ingrese un valor para P:");
+   Scanner sc=new Scanner(System.in);
+   P=sc.nextDouble();
+   System.out.println("El valor de P es: " + P);
+ }
+ //-----------------------------------------------------------//
+ /*E)
+  * Si distancia es mayor que 20  y menos que 35, leer un valor para tiempo
+  * Entrada: Distancia
+  * Proceso: Validar que la distancia sea mayor que 20 y menor que 35
+  * Salida: Leer un valor para tiempo si se cumple la condición
+  */
+  double distancia=25;
+  double tiempo=0;
+  if (distancia > 20 && distancia < 35) {
+    System.out.println("Ingrese un valor para tiempo:");
+    Scanner sc=new Scanner(System.in);
+    tiempo = sc.nextDouble();
+    System.out.println("El valor de tiempo es: " + tiempo);
+    
+  }
+  }
 }
-   }
