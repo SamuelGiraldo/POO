@@ -13,13 +13,13 @@ public class Taller4_3 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        double num1 = sc.nextInt();
+        double  num1 = sc.nextInt();
 
         System.out.print("Ingrese el segundo número: ");
-        double num2 = sc.nextInt();
+        double  num2 = sc.nextInt();
 
          System.out.print("Ingrese el tercer número: ");
-        double num3 = sc.nextInt();
+        double  num3 = sc.nextInt();
         if ((num1 >= num2 && num1 <= num3) || (num1 <= num2 && num1 >= num3)) {
             System.out.println("El número central es: " + num1);
         } else if ((num2 >= num1 && num2 <= num3) || (num2 <= num1 && num2 >= num3)) {

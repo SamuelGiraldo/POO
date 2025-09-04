@@ -13,7 +13,7 @@ public static void main(String[] args) {
 *Salida: Obtener el mensaje si es o no es angulo recto
 */
   
-double angulo =90;
+double  angulo =90;
 if (angulo == 90){
   System.out.println("El angulo es un angulo recto");
 } 
@@ -31,7 +31,7 @@ else {
   *Salida:Si alcanza o no el punto de ebullición
 */
 
-double Temperatura = 30.0;
+double  Temperatura = 30.0;
 if (Temperatura > 100){
   System.out.println("Por encima del punto de ebullición del agua");
 }
@@ -49,9 +49,9 @@ else{
  Salida:Validar el total de positivos y negativos 
  */
 
-double numero=-3;
-double totalPositivos=0;
-double totalNegativos=0;  
+double  numero=-3;
+double  totalPositivos=0;
+double  totalNegativos=0;  
 
 if (numero > 0){
 totalPositivos = totalPositivos += numero;
@@ -71,10 +71,10 @@ else{
  * Salida: Leer un valor para P si se cumple la condición
  */
 
- double X=30;
- double Y=20;
- double Z=10;
- double P=0;
+ double  X=30;
+ double  Y=20;
+ double  Z=10;
+ double  P=0;
  if (X > Y && Z < 20) {
    System.out.println("Ingrese un valor para P:");
    Scanner sc=new Scanner(System.in);
@@ -88,12 +88,12 @@ else{
   * Proceso: Validar que la distancia sea mayor que 20 y menor que 35
   * Salida: Leer un valor para tiempo si se cumple la condición
   */
-  double distancia=25;
-  double tiempo=0;
+  double  distancia=25;
+  double  tiempo=0;
   if (distancia > 20 && distancia < 35) {
     System.out.println("Ingrese un valor para tiempo:");
     Scanner sc=new Scanner(System.in);
-    tiempo = sc.nextDouble();
+    tiempo = sc.nextDouble ();
     System.out.println("El valor de tiempo es: " + tiempo);
     
   }

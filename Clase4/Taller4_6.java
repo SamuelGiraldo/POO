@@ -12,17 +12,17 @@ public class Taller4_6{
          * Salida: Precio total
          */
 
-          double precioPorKilometro = 2.5;
+          double  precioPorKilometro = 2.5;
 
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese la distancia a recorrer (en km): ");
-        double distancia = sc.nextDouble();
+        double  distancia = sc.nextDouble ();
 
         System.out.print("Ingrese el número de días de estancia: ");
-        double dias = sc.nextInt();
+        double  dias = sc.nextInt();
 
-        double precioTotal = distancia * precioPorKilometro * 2; // Ida y vuelta
+        double  precioTotal = distancia * precioPorKilometro * 2; // Ida y vuelta
         if (dias > 7 && distancia > 800) {
             precioTotal *= 0.7; //Aplicar descuento del 30%
         }

@@ -13,8 +13,8 @@ public class Taller4_4{
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un número: ");
 
-        double num = sc.nextDouble();
-        double raizCuadrada = Math.sqrt(num);
+        double  num = sc.nextDouble ();
+        double  raizCuadrada = Math.sqrt(num);
         
         System.out.println("La raiz cuadrada de " + num + " es: " + raizCuadrada);
     }

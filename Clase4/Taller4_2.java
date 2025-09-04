@@ -15,10 +15,10 @@ public class Taller4_2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        double num1 = sc.nextInt();
+        double  num1 = sc.nextInt();
 
         System.out.print("Ingrese el segundo número: ");
-        double num2 = sc.nextInt();
+        double  num2 = sc.nextInt();
 
         if (num1 > num2) {
             System.out.println("El primer número es el mayor.");
