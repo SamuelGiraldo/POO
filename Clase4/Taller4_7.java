@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Taller4_7{
     public static void main(String[] args) {
-        /*4.3)
+        /*4.7)
          *Requerimiento:Despues de que el usuario introduzca una fecha con
          *el formato dd/mm/aaaa se  obtenga la fecha del dia siguiente
          *
