@@ -11,17 +11,24 @@ public class Taller4_12{
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el primer numero: ");
+
         double num1 = sc.nextDouble();
         System.out.print("Ingrese el segundo numero: ");
+
         double num2 = sc.nextDouble();
         System.out.println("Seleccione la operación a realizar:");
+
         System.out.println("1. Suma");
+
         System.out.println("2. Resta");
+
         System.out.println("3. Multiplicación");
+
         System.out.println("4. División");
+
         int opcion = sc.nextInt();
         double resultado;
-
+        
         switch (opcion) {
             case 1:
                 resultado = num1 + num2;
