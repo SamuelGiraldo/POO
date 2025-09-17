@@ -12,5 +12,6 @@ public class Persona {
     public void caminar(){}
     public boolean jugar(){}
     public void comer(){}
-    public string estudiar(){}
+    public String estudiar(){
+    }
 }
