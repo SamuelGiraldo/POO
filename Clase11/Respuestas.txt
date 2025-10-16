@@ -1,0 +1,59 @@
+1.Encapsulación:
+Es proteger los datos de una clase y solo se pueden cambiar con métodos
+
+2.Método y Constructor:
+Método:hace algo
+Constructor:crea el objeto y le da valores al inicio
+
+3.Atributos:
+Porque así nadie puede cambiarlos directamente y 
+solo con métodos se pueden modificar de forma segura
+
+4.Getters y Setters:
+Getter:muestra el valor
+Setter:cambia el valor
+
+5.“El setter no debe validar los datos".
+ Falso porque debe validar los datos para 
+ que no se guarden valores incorrectos
+
+
+CLASE A: Atributos
+|Nombre |Tipo de dato      |	Visibilidad |	Descripción                          |
+|String |Titular	       |private	        |Nombre del dueño de la cuenta           |
+|String |	NumeroCuenta   |private	        |Numero irrepetible de la cuenta bancaria|
+|double |	saldo          |private	        |Dinero disponible                       | 
+
+Métodos
+|Nombre	  |Parámetros     |	Retorno|	Descripción                                          |
+|depositar|	Double (monto)|	void   |Aumenta el saldo de la cuenta                            |
+|retirar  |	Double(monto) |	void   |Disminuye el saldo de la cuenta si hay fondos suficientes|
+|ToString |		String    |	Retorna| la información básica de la cuenta                      |
+
+1. ¿Por qué el atributo saldo debe ser privado?
+Porque así nadie puede cambiarlo directamente solo 
+se modifica con métodos seguros que controlan los valores
+
+2. ¿Qué ocurriria si se intenta depositar un valor negativo?
+El saldo bajaría en vez de subir por eso se 
+debe evitar y validar que el valor sea positivo
+
+
+CLASE B:Atributos
+ Nombre	        |Tipo de dato |	Visibilidad|	Descripción            
+ Codigo	String	|             |Private     |Identificador del producto 
+ Descripcion	|String	      |Private	   |Detalle del producto       
+ Cantidad	    |int	      |Private	   |Número de unidades         
+ PrecioUnitario	|double	      |Private	   |Valor por unidad           
+
+Metodos
+ |Nombre             	|parámetros	   |Retorno 	|Descripción                                         
+ |CalcularSubtotal   	|	           |Double    |Retorna el resultado de multiplicar la cantidad          
+ |Aplicar descuento   |Doubleporcentaje| void     |Aplica un descuento si esta entre 0 y 50                 
+ |incrementarcantidad	|Int valor      |void     |Aumenta la cantidad si el valor ingresado es mayor que 0
+
+ 1. ¿Por qué se valida el porcentaje del descuento?
+Porque el descuento debe tener un valor lógico
+
+2. ¿Qué sucede si el precio unitario es negativo?
+Estaria malo, porque un producto no puede tener precio menor que cero
