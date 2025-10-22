@@ -13,6 +13,6 @@ public class Elevador {
     }
 
     public void informacion(){
-        System.out.println("Tipo de elevador: " + tipo + " | Piso actual: " + pisoActual);
+        System.out.println("Tipo de elevador: " + tipo + " Piso actual: " + pisoActual);
     }
 }
