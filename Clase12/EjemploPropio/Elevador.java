@@ -1,4 +1,4 @@
-//Clase padre
+//Clase Padre
 public class Elevador {
     protected int pisoActual;
     protected String tipo;
@@ -7,7 +7,6 @@ public class Elevador {
         this.pisoActual = 0;
         this.tipo = tipo;
     }
-
     public void mover(int piso){
         System.out.println("El elevador se mueve al piso " + piso);
         pisoActual = piso;
