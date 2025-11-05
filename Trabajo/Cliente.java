@@ -7,21 +7,13 @@ public class Cliente {
     public Cliente(String cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
-    }
-
-    public String getCedula() {
+    }public String getCedula() {
         return cedula;
-    }
-
-    public void setCedula(String cedula) {
+    } public void setCedula(String cedula) {
         this.cedula = cedula;
-    }
-
-    public String getNombre() {
+    } public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String nombre) {
+    } public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
@@ -37,13 +29,9 @@ abstract class Producto {
 
     public Producto(int numero) {
         this.numero = numero;
-    }
-
-    public int getNumero() {
+    } public int getNumero() {
         return numero;
-    }
-
-    public void setNumero(int numero) {
+    }public void setNumero(int numero) {
         this.numero = numero;
     }
 
@@ -51,9 +39,7 @@ abstract class Producto {
     public String toString() {
         return "Producto [Número=" + numero + "]";
     }
-}
-
-class Impresion extends Producto {
+}class Impresion extends Producto {
     private String color;
     private Foto[] fotos;
 
@@ -122,9 +108,6 @@ class Foto {
     }
 }
 
-// ========================
-// Clase Pedido
-// ========================
 class Pedido {
     private Cliente cliente;
     private Producto[] productos;
