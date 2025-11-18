@@ -1,3 +1,5 @@
+import h.Elevador;
+
 public class Elevadordecarga extends Elevador {
 
     public Elevadordecarga(){
