@@ -33,7 +33,7 @@ public class Main {
                     break;
               
                     case 4:
-                    System.out.println("¡Emergencia activada! Elevador detenido y las puertas se abren.");
+                    System.out.println("¡Emergencia activada! El elevador se ha detenido y las puertas se abrieron.");
                     break;
 
                     case 5:
