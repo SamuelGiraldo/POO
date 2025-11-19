@@ -3,7 +3,7 @@ package ASCENSOR_FINAL;
 public class Puerta {
     private boolean abierta;
     private boolean sensorObstaculo;
-
+    
     public Puerta() {
         abierta = false;
         sensorObstaculo = false;

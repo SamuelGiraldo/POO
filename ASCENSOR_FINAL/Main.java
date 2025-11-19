@@ -12,7 +12,8 @@ public class Main {
             System.out.println("1. Llamar ascensor a un piso");
             System.out.println("2. Seleccionar piso desde ascensor");
             System.out.println("3. Ejecutar ciclo");
-            System.out.println("4. Salir");
+            System.out.println("4. Activar emergencia");
+            System.out.println("5. Salir");
 
             int op = sc.nextInt();
 
@@ -30,7 +31,12 @@ public class Main {
                 case 3:
                    sistema.ciclo();
                     break;
-                case 4:
+              
+                    case 4:
+                    System.out.println("¡Emergencia activada! Elevador detenido y las puertas se abren.");
+                    break;
+
+                    case 5:
                     return;
 
                 default:

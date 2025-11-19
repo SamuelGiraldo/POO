@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Ascensor {
 
+
     private int pisoActual;
     private String direccion;  // "subiendo", "bajando", "quieto"
     private Puerta puerta;

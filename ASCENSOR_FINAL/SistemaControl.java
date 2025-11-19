@@ -21,4 +21,8 @@ public class SistemaControl {
     public void ciclo() {
         ascensor.mover();
     }
+
+        public void activarEmergencia() {
+        System.out.println("EMERGENCIA: la función aún no está implementada en la nueva clase Elevador");
+    }
 }
