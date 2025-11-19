@@ -21,14 +21,14 @@ public class Puerta {
     public void abrir() {
         if (!abierta) {
             abierta = true;
-            System.out.println("Puerta abriéndose...");
+            System.out.println("La puerta se esta abriéndo");
         }
     }
 
      public void cerrar() {
         if (abierta) {
             abierta = false;
-            System.out.println("Puerta cerrándose...");
+            System.out.println("La puerta se esta cerrando");
 
         }
     }
