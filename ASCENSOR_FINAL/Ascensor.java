@@ -91,8 +91,7 @@ public class Ascensor {
             notificador.registrarActividad("Llegada al piso " + destino);
         }
     
-        // Método auxiliar mínimo para compilar; implementar la lógica de menú según sea necesario.
         private void mostrarMenu() {
-            // Placeholder: aquí se pueden solicitar destinos y agregarlos a 'destinos' o a 'solicitudes'.
+
         }
     }
