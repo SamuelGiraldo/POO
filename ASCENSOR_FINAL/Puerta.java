@@ -19,17 +19,18 @@ public class Puerta {
     }
 
     public void abrir() {
-        abierta = true;
-        System.out.println("Puerta abierta.");
+        if (!abierta) {
+            abierta = true;
+            System.out.println("Puerta abriéndose...");
+        }
     }
 
-    public void cerrar() {
-        if (sensorObstaculo) {
-            System.out.println("No se puede cerrar por obstáculo.");
-            return;
+     public void cerrar() {
+        if (abierta) {
+            abierta = false;
+            System.out.println("Puerta cerrándose...");
+
         }
-        abierta = false;
-        System.out.println("Puerta cerrada.");
     }
 
     public boolean estaAbierta() {

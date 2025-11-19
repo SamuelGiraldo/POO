@@ -1,7 +1,6 @@
 package ASCENSOR_FINAL;
 
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n=== MENU ASCENSOR ===");
+            System.out.println("\n=== ASCENSOR ===");
             System.out.println("1. Llamar ascensor a un piso");
             System.out.println("2. Seleccionar piso desde ascensor");
             System.out.println("3. Ejecutar ciclo");
@@ -19,19 +18,18 @@ public class Main {
 
             switch (op) {
                 case 1:
-                    System.out.print("Ingrese piso: ");
+                    System.out.print("En que piso se encuentra: ");
                     sistema.presionarBotonPiso(sc.nextInt());
                     break;
 
                 case 2:
-                    System.out.print("Ingrese destino: ");
+                    System.out.print("Ingrese piso al que desea ir: ");
                     sistema.presionarBotonAscensor(sc.nextInt());
                     break;
 
                 case 3:
-                    sistema.ciclo();
+                   sistema.ciclo();
                     break;
-
                 case 4:
                     return;
 
